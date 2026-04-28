@@ -1,0 +1,135 @@
+{
+"name": "Fintech Dark Premium",
+"dataColors": [
+"#4DA3FF",
+"#00C896",
+"#FF5C5C",
+"#A78BFA",
+"#F59E0B",
+"#22D3EE",
+"#E879F9",
+"#94A3B8"
+],
+"background": "#0B0F1A",
+"foreground": "#E5E7EB",
+"tableAccent": "#4DA3FF",
+"visualStyles": {
+"*": {
+"*": {
+"title": [
+{
+"show": true,
+"fontColor": { "solid": { "color": "#E5E7EB" } },
+"fontSize": 14,
+"fontFamily": "Segoe UI Semibold"
+}
+],
+"background": [
+{
+"show": true,
+"color": { "solid": { "color": "#111827" } },
+"transparency": 10
+}
+],
+"border": [
+{
+"show": false
+}
+]
+}
+},
+"card": {
+"*": {
+"labels": [
+{
+"color": { "solid": { "color": "#FFFFFF" } },
+"fontSize": 22,
+"fontFamily": "Segoe UI Bold"
+}
+],
+"categoryLabels": [
+{
+"color": { "solid": { "color": "#9CA3AF" } }
+}
+]
+}
+},
+"lineChart": {
+"*": {
+"categoryAxis": [
+{
+"labelColor": { "solid": { "color": "#9CA3AF" } },
+"titleColor": { "solid": { "color": "#E5E7EB" } }
+}
+],
+"valueAxis": [
+{
+"labelColor": { "solid": { "color": "#9CA3AF" } },
+"titleColor": { "solid": { "color": "#E5E7EB" } },
+"gridlineColor": { "solid": { "color": "#1F2937" } }
+}
+],
+"legend": [
+{
+"labelColor": { "solid": { "color": "#D1D5DB" } }
+}
+],
+"dataLabels": [
+{
+"color": { "solid": { "color": "#E5E7EB" } }
+}
+]
+}
+},
+"clusteredColumnChart": {
+"*": {
+"categoryAxis": [
+{
+"labelColor": { "solid": { "color": "#9CA3AF" } }
+}
+],
+"valueAxis": [
+{
+"labelColor": { "solid": { "color": "#9CA3AF" } },
+"gridlineColor": { "solid": { "color": "#1F2937" } }
+}
+]
+}
+},
+"tableEx": {
+"*": {
+"grid": [
+{
+"gridVerticalColor": { "solid": { "color": "#1F2937" } },
+"gridHorizontalColor": { "solid": { "color": "#1F2937" } }
+}
+],
+"columnHeaders": [
+{
+"fontColor": { "solid": { "color": "#E5E7EB" } },
+"backColor": { "solid": { "color": "#111827" } }
+}
+],
+"values": [
+{
+"fontColor": { "solid": { "color": "#D1D5DB" } }
+}
+]
+}
+},
+"slicer": {
+"*": {
+"items": [
+{
+"fontColor": { "solid": { "color": "#E5E7EB" } }
+}
+],
+"background": [
+{
+"color": { "solid": { "color": "#111827" } }
+}
+]
+}
+}
+}
+}
